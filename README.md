@@ -15,3 +15,7 @@ We have implemented below **features over the run-aspnetcore-microservices repos
 * ASP.NET Web API application
 * REST API principles, CRUD operations
 * **Redis database** connection and containerization
+
+#### Discount microservice which includes;
+* ASP.NET application
+* **PostgreSQL database** connection and containerization
