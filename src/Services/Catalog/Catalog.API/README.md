@@ -1,24 +1,24 @@
 # AspNetMicroservices Catalog.API
 Catalog.API
 
-#Docker Commands
-docker pull mongo
-docker ps
-docker run -d -p 27017:27017 --name shopping-mongo mongo
-docker exec -it shopping-mongo /bin/bash
-docker logs -f shopping-mongo
-cls
+# Docker Commands
+ - docker pull mongo
+ - docker ps
+ - docker run -d -p 27017:27017 --name shopping-mongo mongo
+ - docker exec -it shopping-mongo /bin/bash
+ - docker logs -f shopping-mongo
+ - cls
 
-docker stop {3faa-imageid}
-docker rm {3faa-imageid}
-docker ps -s -- Show stopped images
-docker images -- show images
-docker ps -aq
-docker stop $(docker ps -aq) - stop all docker image
-docker rmi $(docker images -q) -- remove all images
-docker system prune -- remove unnamed images
+ - docker stop {3faa-imageid}
+ - docker rm {3faa-imageid}
+ - docker ps -s -- Show stopped images
+ - docker images -- show images
+ - docker ps -aq
+ - docker stop $(docker ps -aq) - stop all docker image
+ - docker rmi $(docker images -q) -- remove all images
+ - docker system prune -- remove unnamed images
 
-Close all dockers and run with below command on that location;
+## Close all dockers and run with below command on that location;
 
 	docker-compose -f docker-compose.yml -f docker-compose.override.yml up --build
 	or
@@ -26,7 +26,7 @@ Close all dockers and run with below command on that location;
 	docker-compose -f docker-compose.yml -f docker-compose.override.yml down
 
 
-#Mongo Commands
+# Mongo Commands
 
 1
 -- Now we can open interactive terminal for mongo
@@ -80,5 +80,5 @@ show collections
 db.Products.find({}).pretty()
 
 
-# for Mongo Client
+# Mongo Client
 docker run -d -p 3000:3000 mongoclient/mongoclient
