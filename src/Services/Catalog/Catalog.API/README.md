@@ -1,5 +1,5 @@
-# AspNetMicroservices Catelog.API
-Catelog.API
+# AspNetMicroservices Catalog.API
+Catalog.API
 
 #Docker Commands
 docker pull mongo
@@ -80,5 +80,5 @@ show collections
 db.Products.find({}).pretty()
 
 
-## for Mongo Client
+# for Mongo Client
 docker run -d -p 3000:3000 mongoclient/mongoclient
