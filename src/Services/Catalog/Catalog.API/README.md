@@ -30,7 +30,6 @@ Catalog.API
 
 1
 -- Now we can open interactive terminal for mongo
-
 docker exec -it shopping-mongo /bin/bash
 
 
