@@ -1,8 +1,8 @@
-# AspNetMicroservices Basket.API
-Basket.API
+# AspNetMicroservices Discount.API
+Discount.API
 
 # Docker Commands
- - docker pull redis (https://hub.docker.com/_/redis)
+ - docker pull postgress (https://hub.docker.com/_/postgres)
 
 ## Close all dockers and run with below command on that location;
 
@@ -12,18 +12,9 @@ Basket.API
 	docker-compose -f docker-compose.yml -f docker-compose.override.yml down
 
 
-# Redis Command
+# PostgreSQL Command
  -d :  detachment backgroudly
 
- - docker run -d -p 6379:6379 --name aspnetrun-redis redis
- - docker logs -f aspnetrun-redis
 
  for troubleshooting OR Interactive Terminal
-  - docker exec -it aspnetrun-redis /bin/bash
-  - redis-cli
-  - ping
-  - set key value 
-  - get key
-  - set name rahul
-  - get name
   

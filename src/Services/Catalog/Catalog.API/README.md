@@ -2,7 +2,7 @@
 Catalog.API
 
 # Docker Commands
- - docker pull mongo
+ - docker pull mongo (https://hub.docker.com/_/mongo)
  - docker ps
  - docker run -d -p 27017:27017 --name shopping-mongo mongo
  - docker exec -it shopping-mongo /bin/bash
