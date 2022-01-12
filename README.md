@@ -15,5 +15,3 @@ We have implemented below **features over the run-aspnetcore-microservices repos
 * ASP.NET Web API application
 * REST API principles, CRUD operations
 * **Redis database** connection and containerization
-* Consume Discount **Grpc Service** for inter-service sync communication to calculate product final price
-* Publish BasketCheckout Queue with using **MassTransit and RabbitMQ**
