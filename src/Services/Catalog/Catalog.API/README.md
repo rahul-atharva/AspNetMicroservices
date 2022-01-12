@@ -3,6 +3,7 @@ Catalog.API
 
 # Docker Commands
  - docker pull mongo (https://hub.docker.com/_/mongo)
+ - docker run -d -p 3000:3000 mongoclient/mongoclient  : Mongo Client (https://hub.docker.com/r/mongoclient/mongoclient)
  - docker ps
  - docker run -d -p 27017:27017 --name shopping-mongo mongo
  - docker exec -it shopping-mongo /bin/bash
@@ -79,5 +80,4 @@ show collections
 db.Products.find({}).pretty()
 
 
-# Mongo Client
-docker run -d -p 3000:3000 mongoclient/mongoclient
+

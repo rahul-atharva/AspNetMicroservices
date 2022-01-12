@@ -3,6 +3,7 @@ Discount.API
 
 # Docker Commands
  - docker pull postgress (https://hub.docker.com/_/postgres)
+ - docker pull dpage/pgadmin4 (https://hub.docker.com/r/dpage/pgadmin4)
 
 ## Close all dockers and run with below command on that location;
 
