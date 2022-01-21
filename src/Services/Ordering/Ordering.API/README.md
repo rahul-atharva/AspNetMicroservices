@@ -2,7 +2,8 @@
 Ordering.API
 
 # Docker Commands
- - 
+ - docker pull mcr.microsoft.com/mssql/server  (https://hub.docker.com/_/microsoft-mssql-server)
+ - mcr.microsoft.com/mssql/server:2017-latest
 
 ## Close all dockers and run with below command on that location;
 
