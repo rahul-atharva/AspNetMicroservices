@@ -1,0 +1,19 @@
+# AspNetMicroservices Ordering.API
+Ordering.API
+
+# Docker Commands
+ - 
+
+## Close all dockers and run with below command on that location;
+
+	docker-compose -f docker-compose.yml -f docker-compose.override.yml up --build
+	or
+	docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d
+	docker-compose -f docker-compose.yml -f docker-compose.override.yml down
+
+
+# SQL Command
+ -d :  detachment backgroudly
+
+ 
+  
