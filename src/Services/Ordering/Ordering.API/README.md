@@ -4,6 +4,7 @@ Ordering.API
 # Docker Commands
  - docker pull mcr.microsoft.com/mssql/server  (https://hub.docker.com/_/microsoft-mssql-server)
  - mcr.microsoft.com/mssql/server:2017-latest
+ - docker pull rabbitmq (https://hub.docker.com/_/rabbitmq)
 
 ## Close all dockers and run with below command on that location;
 
@@ -17,4 +18,6 @@ Ordering.API
  -d :  detachment backgroudly
 
  
+# Rabbit MQ
+http://localhost:15672/ with guest and guest
   
